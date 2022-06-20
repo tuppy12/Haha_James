@@ -1,4 +1,15 @@
 import platform
 import os
-import tata1
-tata1.file()
+
+arc = platform.uname().machine
+if 'aarch' in arc:
+	from tata1 import file
+	file()
+else:
+	exit('machine not support!')
+
+
+
+
+
+
