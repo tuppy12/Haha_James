@@ -2,7 +2,7 @@ import platform
 import os
 os.system('termux-setup-storage')
 #os.system('git pull')
-os.system('mkdir /sdcard/PROHACK-DATA')
+try:os.system('mkdir /sdcard/PROHACK-DATA')
 except:pass
 os.system('mkdir /sdcard/PROHACK-DATA/OK')
 except:pass
